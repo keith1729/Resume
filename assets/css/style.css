@@ -18,6 +18,10 @@
   background-color: #9b59b6;
 }
 
+.bg-color-contact {
+  background-color: #fff;
+}
+
 .ui-menu-color-home {
   background-color: #e67e22;
 }
@@ -69,7 +73,7 @@ h4 {
 
 .history-heading,
 .section-heading {
-  font-family: 'Exo', sans-serif;
+  font-family: "Exo", sans-serif;
   font-weight: 300;
   margin-top: 25px;
   margin-bottom: 40px;
@@ -86,7 +90,7 @@ header {
 }
 
 .logo {
-  background: url("../images/resume_pic.jpg");
+  background: url("../images/pexels-markusspiske-1089438.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -312,7 +316,7 @@ footer {
   left: 2.5em;
   top: 3em;
   display: block;
-  font-family: 'Exo', sans-serif;
+  font-family: "Exo", sans-serif;
   font-weight: 500;
   font-size: 0.8em;
   padding: 0;
@@ -327,6 +331,43 @@ footer {
   position: absolute;
   left: -6px;
   border-radius: 12px;
-  content: '';
+  content: "";
   background: #fafafa;
+}
+
+.history-items {
+  margin-bottom: 30px;
+}
+
+/*-----------------------------Contact Form*/
+
+.contact-heading {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.center-form {
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+button[type="submit"] {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: #fafafa;
+  background-color: #e84610;
+}
+
+/*-----------------------------Media Queries*/
+
+@media (min-width: 992px) {
+  .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+  }
 }
